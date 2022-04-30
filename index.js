@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 })
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:4200', 'http://127.0.0.1:5500', 'https://videogames-app-zeta.vercel.app' 'https://star-wars-app-react.vercel.app'],
+    origin: ['http://localhost:3000', 'http://localhost:4200', 'http://127.0.0.1:5500', 'https://videogames-app-zeta.vercel.app', 'https://star-wars-app-react.vercel.app'],
     credentials: true
 }));
 
